@@ -1,0 +1,6 @@
+@WordleBattle.Auth_HostAddress = http://localhost:5265
+
+GET {{WordleBattle.Auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
