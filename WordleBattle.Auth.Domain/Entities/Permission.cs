@@ -2,7 +2,7 @@
 
 public class Permission
 {
-    public string Id { get; set; }
+    public int Id { get; set; }
     public string Name { get; set; }
-    public virtual ICollection<RolePermission> Roles { get; set; }
+    public virtual ICollection<RolePermission> RolePermissions { get; set; }
 }

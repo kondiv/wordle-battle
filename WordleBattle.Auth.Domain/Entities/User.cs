@@ -7,5 +7,5 @@ public class User
     public bool IsEmailConfirmed { get; set; }
     public string HashPassword { get; set; }
     public string Login { get; set; }
-    public virtual ICollection<UserRole> Roles { get; set; }
+    public virtual ICollection<UserRole> UserRoles { get; set; }
 }
